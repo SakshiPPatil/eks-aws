@@ -16,7 +16,7 @@ It’s a managed Kubernetes service provided by AWS that makes it easy to run Ku
 
  - Automates upgrades and patches for the control plane.  <br/>
 
-<h3>Why use EKS?**</h3> 
+<h3>Why use EKS?</h3> 
   - Saves operational effort managing Kubernetes.  <br/>
 
   - Runs Kubernetes workloads easily and reliably on AWS infrastructure.  <br/>
