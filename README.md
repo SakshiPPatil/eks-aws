@@ -53,7 +53,7 @@ Good for teams wanting Kubernetes without managing masters/control plane.
 5) For create the cluster use following command: <br/>
    
    ```
-      eksctl create cluster --name cluster2 --region us-east-1 --nodegroup-name ng1 --node-type t2.medium --nodes 2
+      eksctl create cluster --name cluster2 --region us-east-1 --nodegroup-name ng1 --node-type t2.medium --nodes 5
  
     ```
 
@@ -104,12 +104,47 @@ You can customize further with flags like --nodes-min, --nodes-max for autoscali
 
 11) Access the pod
 
-    ```
+```
       curl PUBLIC_IP_of_INSTANCE:port
-    ```
+```
 
-    eg. curl 52.206.101.239:30394 <br/>
+  eg. curl 52.206.101.239:30394 <br/>
 
+
+
+  # Outputs:
+
+```
+eksctl create cluster --name cluster2 --region us-east-1 --nodegroup-name ng1 --node-type t2.medium --nodes 5
+```
+
+After successfully running the above command eksctl creates the cluster, node-group, nodes,vpc,subnets for running the kubernetes application. <br/>
+
+It creates the cluster with name cluster2   <br/>
+![Screenshot 2025-06-17 193524](https://github.com/user-attachments/assets/6fc8ffa6-7b17-4ee1-81ce-631c82c5fb12)  <br/>
+
+![Screenshot 2025-06-17 193737](https://github.com/user-attachments/assets/a94ca637-4fca-4e0f-86d7-727e53d7fb1a)
+
+Node groups within the cluster:  <br/>
+
+![Screenshot 2025-06-17 193720](https://github.com/user-attachments/assets/29542aa1-071f-4164-98fb-36982f8f820d)
+
+VPC for the kubernet-cluster cluster2:  <br/>
+
+![Screenshot 2025-06-17 193807](https://github.com/user-attachments/assets/a2a3dc11-3463-4246-9771-f774e9c45c84)  <br/>
+
+
+Subnets for the cluster:  <br/>
+
+![Screenshot 2025-06-17 193827](https://github.com/user-attachments/assets/304ec926-22ed-4a0a-b7cd-6fafb95a6dd5)  <br/>
+
+Route table for the cluster:  <br/>
+
+![Screenshot 2025-06-17 193845](https://github.com/user-attachments/assets/f08752c1-f73e-446d-88d9-fc281550d3b1)  <br/>
+
+Internet Gateway-It Provide the internet access to the vpc:  <br/>
+
+![Screenshot 2025-06-17 193900](https://github.com/user-attachments/assets/04f716b1-d184-439f-a394-fae5aea19317)  <br/>
 
 
 
