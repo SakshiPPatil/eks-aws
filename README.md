@@ -5,23 +5,23 @@ EKS stands for Amazon Elastic Kubernetes Service. <br/>
 
 It’s a managed Kubernetes service provided by AWS that makes it easy to run Kubernetes clusters on AWS without having to install, operate, and maintain your own Kubernetes control plane.  <br/>
 
-Key points about EKS:  <br/>
-Fully managed: AWS handles the Kubernetes control plane (API servers, etcd, etc.) so you don’t have to worry about the infrastructure that runs Kubernetes itself.  <br/>
+<h3> Key points about EKS:</h3>  <br/>
+ - Fully managed: AWS handles the Kubernetes control plane (API servers, etcd, etc.) so you don’t have to worry about the infrastructure that runs Kubernetes itself.  <br/>
 
-Scalable and secure: Integrates with AWS networking, security (IAM, VPC, etc.), and scaling features.  <br/>
+ - Scalable and secure: Integrates with AWS networking, security (IAM, VPC, etc.), and scaling features.  <br/>
 
-Supports standard Kubernetes: You can use all standard Kubernetes tools and APIs.  <br/>
+ - Supports standard Kubernetes: You can use all standard Kubernetes tools and APIs.  <br/>
 
-Integrates with other AWS services: For example, you can use AWS Load Balancers, IAM Roles for service accounts, CloudWatch for monitoring, and more.  <br/>
+ - Integrates with other AWS services: For example, you can use AWS Load Balancers, IAM Roles for service accounts, CloudWatch for monitoring, and more.  <br/>
 
-Automates upgrades and patches for the control plane.  <br/>
+ - Automates upgrades and patches for the control plane.  <br/>
 
-Why use EKS?  <br/>
-Saves operational effort managing Kubernetes.  <br/>
+**Why use EKS?**  <br/>
+  - Saves operational effort managing Kubernetes.  <br/>
 
-Runs Kubernetes workloads easily and reliably on AWS infrastructure.  <br/>
+  - Runs Kubernetes workloads easily and reliably on AWS infrastructure.  <br/>
 
-Good for teams wanting Kubernetes without managing masters/control plane. 
+  - Good for teams wanting Kubernetes without managing masters/control plane. 
 <br/>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
