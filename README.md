@@ -5,7 +5,7 @@ EKS stands for Amazon Elastic Kubernetes Service. <br/>
 
 It’s a managed Kubernetes service provided by AWS that makes it easy to run Kubernetes clusters on AWS without having to install, operate, and maintain your own Kubernetes control plane.  <br/>
 
-<h3> Key points about EKS:</h3>  <br/>
+<h3> Key points about EKS:</h3> 
  - Fully managed: AWS handles the Kubernetes control plane (API servers, etcd, etc.) so you don’t have to worry about the infrastructure that runs Kubernetes itself.  <br/>
 
  - Scalable and secure: Integrates with AWS networking, security (IAM, VPC, etc.), and scaling features.  <br/>
@@ -16,7 +16,7 @@ It’s a managed Kubernetes service provided by AWS that makes it easy to run Ku
 
  - Automates upgrades and patches for the control plane.  <br/>
 
-**Why use EKS?**  <br/>
+<h3>Why use EKS?**</h3>  <br/>
   - Saves operational effort managing Kubernetes.  <br/>
 
   - Runs Kubernetes workloads easily and reliably on AWS infrastructure.  <br/>
